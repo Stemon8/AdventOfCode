@@ -71,6 +71,9 @@ public class Main
         return 0;
     }
     
+    /**
+     * Returns the expected score for part 1
+     */
     public static int GetScore(ArrayList lines)
     {
         int totalScore;
@@ -83,6 +86,9 @@ public class Main
         return totalScore;
     }
 
+    /**
+     * Returns the expected score for part 2
+     */
     public static int getScoreNew(ArrayList lines)
     {
         int totalScore;
@@ -95,6 +101,10 @@ public class Main
         return totalScore;
     }
 
+    /**
+     * Part 2
+     * Will determine the hand to play given the predicted hand and the expected result
+     */
     public static string DetWhatToPlay(string hand, string hint)
     {
         switch(hand)
